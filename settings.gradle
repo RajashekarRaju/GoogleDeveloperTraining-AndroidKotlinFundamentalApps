@@ -1,0 +1,3 @@
+rootProject.name='KotlinFundamentalApps'
+include ':Lesson1-BuildYourFirstApp'
+include ':Lesson2-Layouts'

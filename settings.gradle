@@ -1,3 +1,4 @@
 rootProject.name='KotlinFundamentalApps'
 include ':Lesson1-DiceRoller'
 include ':Lesson2-AboutMe'
+include ':Lesson2-ColorMyViews'

@@ -9,3 +9,25 @@ with "Hello World" and move up to an app that uses image files and a click handl
 Android projects are structured, how to use and modify views in your Kotlin Android app, and how to
  make sure your apps are backward-compatible. You also learn about API levels and the Android
  Jetpack libraries.
+
+### Lesson 2: Layouts
+In Lesson 2, you learn how to use the Android Studio Layout Editor to create linear layouts and
+constraint layouts. You create apps that get and display user input, respond to user taps, and
+change the visibility and color of views. This lesson also teaches you how to use data binding to
+eliminate inefficient calls to the findViewById() method.
+
+#### 2.1 Linear layout using the Layout Editor
+#### 2.2 Add user interactivity
+#### 2.3 Constraint layout using the Layout Editor
+#### 2.4 Data-binding basics
+
+### Lesson 3: Navigation
+In Lesson 3, you learn how to create useful navigation in an app. You create a fragment and add it
+to an app, then add navigation to the app using the Android Studio navigation graph. You add a
+navigation drawer and an options menu to your app, and you work with the app's back stack, changing
+ the destination of the system Back button. Finally, you learn how to invoke an external activity
+ from within the app.
+
+#### 3.1: Create a fragment
+#### 3.2: Define navigation paths
+#### 3.3: Define external activities

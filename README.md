@@ -31,3 +31,11 @@ navigation drawer and an options menu to your app, and you work with the app's b
 #### 3.1: Create a fragment
 #### 3.2: Define navigation paths
 #### 3.3: Define external activities
+
+### Lesson 4: Activity and fragment lifecycles
+In Lesson 4, you learn about the activity and fragment lifecycles, and you learn how to manage
+complex lifecycle situations. You work with a starter app that contains several bugs related to the
+Android lifecycle. You add logging to the app to better understand the app's lifecycle events, and
+you fix the bugs that the app contains and add some enhancements to the app. You also learn about
+Android Jetpack's lifecycle library, which can help you manage lifecycle events with code that's
+better organized and easier to maintain.

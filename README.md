@@ -28,9 +28,9 @@ navigation drawer and an options menu to your app, and you work with the app's b
  the destination of the system Back button. Finally, you learn how to invoke an external activity
  from within the app.
 
-#### 3.1: Create a fragment
-#### 3.2: Define navigation paths
-#### 3.3: Define external activities
+#### 3.1 Create a fragment
+#### 3.2 Define navigation paths
+#### 3.3 Define external activities
 
 ### Lesson 4: Activity and fragment lifecycles
 In Lesson 4, you learn about the activity and fragment lifecycles, and you learn how to manage
@@ -39,3 +39,16 @@ Android lifecycle. You add logging to the app to better understand the app's lif
 you fix the bugs that the app contains and add some enhancements to the app. You also learn about
 Android Jetpack's lifecycle library, which can help you manage lifecycle events with code that's
 better organized and easier to maintain.
+
+#### 4.1 Lifecycles and logging
+#### 4.2 Complex lifecycle situations
+
+### Lesson 5: Architecture components
+Lesson 5 teaches you how to use ViewModel and LiveData objects. You learn how to use ViewModel
+objects to enable data to survive configuration changes such as screen rotations. You convert an
+app's UI data into encapsulated LiveData and add observer methods that are notified when the value
+of the LiveData changes.
+
+You also integrate LiveData and ViewModel with data binding so that the views in your layout
+communicate directly with ViewModel objects, without using the app's fragments to relay information.
+This technique simplifies your code and eliminates the need for click handlers in the UI controllers.

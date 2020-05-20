@@ -52,3 +52,8 @@ of the LiveData changes.
 You also integrate LiveData and ViewModel with data binding so that the views in your layout
 communicate directly with ViewModel objects, without using the app's fragments to relay information.
 This technique simplifies your code and eliminates the need for click handlers in the UI controllers.
+
+#### 5.1 : ViewModel and ViewModelFactory
+#### 5.2 : LiveData and LiveData observers
+#### 5.3 : Data binding with ViewModel and LiveData
+#### 5.4 : LiveData transformations

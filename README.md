@@ -63,3 +63,5 @@ Lesson 6 teaches you how to use the Room database library. Room takes care of ma
 setting up and configuring a database, and simplifies the code for interacting with the database.
 You learn how to use Kotlin coroutines to move database operations away from the main thread, and
 you learn more about using ViewModel and LiveData with app navigation.
+
+#### 6.1: Create a Room database

@@ -57,3 +57,9 @@ This technique simplifies your code and eliminates the need for click handlers i
 #### 5.2 : LiveData and LiveData observers
 #### 5.3 : Data binding with ViewModel and LiveData
 #### 5.4 : LiveData transformations
+
+### Lesson 6: Room database and coroutines
+Lesson 6 teaches you how to use the Room database library. Room takes care of many of the chores of
+setting up and configuring a database, and simplifies the code for interacting with the database.
+You learn how to use Kotlin coroutines to move database operations away from the main thread, and
+you learn more about using ViewModel and LiveData with app navigation.

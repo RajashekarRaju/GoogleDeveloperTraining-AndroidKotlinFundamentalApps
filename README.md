@@ -67,3 +67,12 @@ you learn more about using ViewModel and LiveData with app navigation.
 #### 6.1: Create a Room database
 #### 6.2: Coroutines and Room
 #### 6.3: Use LiveData to control button states
+
+### Lesson 7: RecyclerView
+Lesson 7 teaches you how to use a RecyclerView to efficiently display lists and grids of items. For
+complex lists and grids, you learn ways to make RecyclerView more efficient and your code easier to
+maintain and extend. You learn how to make items in a RecyclerView clickable. You also learn how to
+add more than one view holder and layout to lists and grids in a RecyclerView, for example, to add
+a header in your app.
+
+#### 7.1: RecyclerView fundamentals

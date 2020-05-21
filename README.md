@@ -65,3 +65,4 @@ You learn how to use Kotlin coroutines to move database operations away from the
 you learn more about using ViewModel and LiveData with app navigation.
 
 #### 6.1: Create a Room database
+#### 6.2: Coroutines and Room

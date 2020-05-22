@@ -76,3 +76,4 @@ add more than one view holder and layout to lists and grids in a RecyclerView, f
 a header in your app.
 
 #### 7.1: RecyclerView fundamentals
+#### 7.2 DiffUtil and data binding with RecyclerView

@@ -63,13 +63,13 @@ class SleepTrackerFragment : Fragment() {
 
         sleepTrackerViewModel.nights.observe(viewLifecycleOwner, Observer {
             it?.let {
-                adapter.submitList(it)
+                adapter.addHeaderAndSubmitList(it)
             }
         })
 
         // Specify the current activity as the lifecycle owner of the binding.
         // This is necessary so that the binding can observe LiveData updates.
-        binding.setLifecycleOwner(this)
+        binding.lifecycleOwner = this
 
         // Add an Observer on the state variable for showing a Snackbar message
         // when the CLEAR button is pressed.
@@ -119,6 +119,12 @@ class SleepTrackerFragment : Fragment() {
         })
 
         val manager = GridLayoutManager(activity, 3)
+        manager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
+            override fun getSpanSize(position: Int) = when (position) {
+                0 -> 3
+                else -> 1
+            }
+        }
         binding.sleepList.layoutManager = manager
 
         return binding.root

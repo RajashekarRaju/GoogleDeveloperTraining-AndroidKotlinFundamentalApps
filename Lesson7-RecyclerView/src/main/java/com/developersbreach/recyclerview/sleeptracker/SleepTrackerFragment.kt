@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.GridLayoutManager
 import com.developersbreach.recyclerview.R
 import com.developersbreach.recyclerview.database.SleepDatabase
 import com.developersbreach.recyclerview.databinding.FragmentSleepTrackerBinding
@@ -55,6 +56,8 @@ class SleepTrackerFragment : Fragment() {
             }
         })
 
+        binding.lifecycleOwner = this
+
         sleepTrackerViewModel.navigateToSleepQuality.observe(viewLifecycleOwner, Observer { night ->
             night?.let {
                 this.findNavController().navigate(
@@ -76,7 +79,9 @@ class SleepTrackerFragment : Fragment() {
             }
         })
 
-        binding.lifecycleOwner = this
+        val manager = GridLayoutManager(activity, 3)
+        binding.sleepList.layoutManager = manager
+
         return binding.root
     }
 }

@@ -77,3 +77,6 @@ a header in your app.
 
 #### 7.1: RecyclerView fundamentals
 #### 7.2 DiffUtil and data binding with RecyclerView
+#### 7.3 GridLayout with RecyclerView
+#### 7.4 Interacting with RecyclerView items
+#### 7.5: Headers in RecyclerView

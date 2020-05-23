@@ -80,3 +80,9 @@ a header in your app.
 #### 7.3 GridLayout with RecyclerView
 #### 7.4 Interacting with RecyclerView items
 #### 7.5: Headers in RecyclerView
+
+### Lesson 8: Connecting to the internet
+Lesson 8 teaches you how to use community-developed libraries to connect to a web service to
+retrieve and display data. You learn how to handle potential network errors and use the Glide
+library to load and display photos from the internet. You also build a RecyclerView and use it to
+display a grid of images.

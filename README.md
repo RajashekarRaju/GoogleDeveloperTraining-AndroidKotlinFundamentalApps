@@ -86,3 +86,7 @@ Lesson 8 teaches you how to use community-developed libraries to connect to a we
 retrieve and display data. You learn how to handle potential network errors and use the Glide
 library to load and display photos from the internet. You also build a RecyclerView and use it to
 display a grid of images.
+
+### 8.1: Getting data from the internet
+### 8.2: Loading and displaying images from the internet
+### 8.3: Filtering and detail views with internet data

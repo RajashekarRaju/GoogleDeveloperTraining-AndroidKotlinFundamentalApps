@@ -90,3 +90,8 @@ display a grid of images.
 ### 8.1: Getting data from the internet
 ### 8.2: Loading and displaying images from the internet
 ### 8.3: Filtering and detail views with internet data
+
+### Lesson 9: Repository
+Lesson 9 teaches you how to add a repository to abstract the data layer and provide a clean API to
+the rest of the app in your Android Kotlin app. You also learn how to use WorkManager to schedule
+background tasks in an efficient and optimized way.

@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.developersbreach.marsrealestate.R
 import com.developersbreach.marsrealestate.databinding.FragmentOverviewBinding
-import com.developersbreach.marsrealestate.overview.OverviewViewModel
 
 /**
  * This fragment shows the the status of the Mars real-estate web services transaction.
@@ -35,6 +34,8 @@ class OverviewFragment : Fragment() {
 
         // Giving the binding access to the OverviewViewModel
         binding.viewModel = viewModel
+
+        binding.photosGrid.adapter = PhotoGridAdapter()
 
         setHasOptionsMenu(true)
         return binding.root

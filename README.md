@@ -95,3 +95,6 @@ display a grid of images.
 Lesson 9 teaches you how to add a repository to abstract the data layer and provide a clean API to
 the rest of the app in your Android Kotlin app. You also learn how to use WorkManager to schedule
 background tasks in an efficient and optimized way.
+
+#### 9.1: Repository
+#### 9.2: WorkManager

@@ -23,7 +23,7 @@ eliminate inefficient calls to the findViewById() method.
 #### 2.3 Constraint layout using the Layout Editor
 #### 2.4 Data-binding basics
 
- <img src="https://github.com/RajashekarRaju/GoogleDeveloperTraining-AndroidKotlinFundamentalApps/blob/master/Lesson2-AboutMe/device-2020-05-24-114946.png" height="626" width="300">
+ <img src="https://github.com/RajashekarRaju/GoogleDeveloperTraining-AndroidKotlinFundamentalApps/blob/master/Lesson2-AboutMe/aboutme_ss.png" height="626" width="300">
 
 ### Lesson 3: Navigation
 In Lesson 3, you learn how to create useful navigation in an app. You create a fragment and add it

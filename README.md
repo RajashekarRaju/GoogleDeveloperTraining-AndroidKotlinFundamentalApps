@@ -98,3 +98,7 @@ background tasks in an efficient and optimized way.
 
 #### 9.1: Repository
 #### 9.2: WorkManager
+
+### Lesson 10: Designing for everyone
+This lesson teaches the basics of Android app design. It introduces themes and styles, material
+design, and how to make your app more accessible to everyone.

@@ -102,3 +102,7 @@ background tasks in an efficient and optimized way.
 ### Lesson 10: Designing for everyone
 This lesson teaches the basics of Android app design. It introduces themes and styles, material
 design, and how to make your app more accessible to everyone.
+
+#### 10.1 Styles and themes
+#### 10.2 Material Design, dimens, and colors
+#### 10.3 Design for everyone
